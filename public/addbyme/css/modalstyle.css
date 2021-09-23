@@ -1,0 +1,285 @@
+
+div.modal{
+box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.25);
+border-radius: 31px;
+}
+.modal-content, .modal-header{
+	border: unset!important;
+  border-radius: 21px;
+}
+.verification{color: #253858;font-size: 23px!important;font-weight: 700; line-height: 1;}
+.modal-body p, .pop-up  label, .incorrect{color: #253858;font-size: 22px;font-weight: 700;}
+.pop-up label{    display: block;
+    text-align: left;
+    margin-left: 135px;}
+
+
+.pop-up input{
+	    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border: 3px solid #7184B5;  
+    border-radius: 53px;
+    height: 50px;
+}
+.modal-header{padding: 0!important;}
+.pop-up input[type='submit']{
+	background: #1E8447;
+border-radius: 38px;
+	color: white;
+	border: unset;
+    padding: 10px 30px;
+    font-size: 22px;
+    font-weight: 600;
+	cursor: pointer;
+	width: 30%;
+}
+.incorrect{
+	color: #C65B1F!important;
+	position: relative;
+	padding-left: 40px;
+}
+.incorrect:before{
+	content: ' \0021';
+    position: absolute;
+    left: 0;
+    border: 1px solid #C65B1F;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    top: 5px;
+}
+#myModal2 .modal-header{display: block;text-align: center;}
+#myModal2.modal, #myModal3.modal{height: auto;}
+.modal-footer-list{list-style-type: none;}
+.modal-footer-list li{display: inline-block;padding: 0 5px;}
+.modal-footer-list li a i{color: white;text-align: center;width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 7px;}
+.modal-footer-list li:nth-child(2) a i{background-color: #3B5998;}
+.modal-footer-list li:last-child a i{background-color: #26A6D1;}
+.modal-footer-list li:nth-child(3) a i{background-color: #4CAF50;}
+.modal-footer-list li span{font-size: 10px;}
+#myModal2 .modal-body p{font-size: 12px;color: #393939;}
+#myModal2 .modal-body h5{color: #393939;}
+.modal-footer p{font-size: 22px;}
+.numb{
+	background: #D22261;
+border-radius: 10px;
+	color: white;
+	    padding: 8px;
+    margin-left: 10px;
+}
+#myModal2 .modal-footer{border: unset!important;}
+.form-control.foam{border: unset;}
+#myModal3 .pop-up input, #myModal4 .pop-up input, #myModal5 .pop-up input{width: 100%;padding-left: 30px;}
+#myModal3 .pop-up input[type='submit'], #myModal4 .pop-up input[type='submit'], #myModal5 .pop-up input[type='submit']{width: 60%;}
+#myModal3 .pop-up label, #myModal4 .pop-up label, #myModal5 .pop-up label{margin: 0;}
+.password{
+	float: right;
+	margin: -35px 10px 0 0;
+}
+.e-mail{
+	float: left;
+	margin: -35px 0 0 10px;
+}
+.text-box{
+	background: #F6F6F6;
+border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 5px;
+	font-size: 15px!important;
+	padding: 20px;
+	color: #6C6C6C!important;
+	font-weight: normal !important;
+	text-align: left;
+	    margin: 30px 0;
+}
+.small-text{
+	font-size: 18px!important;
+	text-align: center!important;
+	color: #253858!important;
+	font-weight: 600!important;
+}
+.small-text:hover{text-decoration: none;}
+#myModal3 .modal-footer .verification a{color: #253858;font-size: 20px;}
+#myModal3 .modal-footer .verification a:hover{color: #253858;}
+
+
+.ac-link{
+	background: #FFE380;
+border-radius: 99px;
+	padding: 10px 30px;
+	text-align: center;
+color: #262626;
+	display: inline-block;
+	margin-top: 40px;
+    font-weight: 700;
+}
+.ac-link:hover{color: #262626;text-decoration: none;}
+
+.foam{position: relative;}
+#myModal4 .pop-up input[type='checkbox'], #myModal5 .pop-up input[type='checkbox']{
+  position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    z-index: 1;
+    left: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+	margin-top: 10px;
+	border: 2px solid #28A820;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+/* When the checkbox is checked, add a blue background */
+#myModal4 .pop-up input[type='checkbox']:checked ~ .checkmark, #myModal5 .pop-up input[type='checkbox']:checked ~ .checkmark {
+  background-color: transparent;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+#myModal4 .pop-up input[type='checkbox']:checked ~ .checkmark:after, #myModal5 .pop-up input[type='checkbox']:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 11px;
+  border: solid #28A820;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.border-left{border-left: 1px solid #BABABA;padding-left: 20px;}
+.alert{
+	color: #F70303!important;
+	font-size: 22px!important;
+}
+.e-mail1{
+	float: left;
+    margin: -20px 0 0 0px;
+}
+.contact-us .form-control{background: #F6F6F6;
+border: 1px solid #DEDEDE;    margin: 10px 0;}
+.contact-us input, .contact-us textarea{	
+background-color: transparent;
+	width: 100%;
+	border: unset;
+	padding-left: 30px;
+}
+.contact-us input:focus, .contact-us textarea:focus{
+	outline: none;
+}
+button.submit{
+	border: unset;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFC80A;
+	letter-spacing: 2px;
+}
+button.submit i{padding-left: 10px;}
+.heading-three{display: inline-block;border-bottom: 2px solid #393939; color: #393939;}
+.circle{
+  width: 92px;
+  height: 92px;
+border: 2px solid black;
+border-radius: 50%;
+ /*   margin: -115px auto 0 auto; *//*deleted by me*/
+}
+
+
+
+
+
+#myModal9 .modal-header{
+  width: 100%;
+    background: linear-gradient(180deg, #464EF3 -7.76%, rgba(28, 153, 195, 0) 100.86%), #FFFFFF;
+    border-radius: 0;
+}
+.heading-four{
+  color: #393939;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.borderradius{border-radius:0px!important;}
+.comany-image img{margin-top: -10px;}
+#myModal9 button.submit{
+  background-color: #0459D7;
+  color: white;
+}
+.modal-lg01{max-width:700px!important;}
+.modal-lg1{max-width:738px!important;}
+.modal-lg2{max-width:780px!important;}
+.modal-lg3{max-width:920px!important;}
+.modal-lg4{max-width:860px!important;}
+.modal-lg5{max-width:734px!important;}
+.modal-lg6{max-width:600px!important;}
+#myModal2 .modal-content{padding:20px!important;}
+.booking1{text-align: center!important;}
+#myModal3 .modal-footer{text-align: center; display:block;}
+
+/*rtl css*/
+
+.small-box {max-width: 530px!important;}
+
+[dir='rtl'] #myModal9 .modal-header{text-align: right!important;}
+[dir='rtl'] .verification{text-align:right!important;}
+[dir='rtl'] .booking4{ display: inline-block;}
+[dir='rtl'] .numb{float:left;     margin-top: -3px;}
+[dir='rtl'] #myModal7 .verification{text-align:center!important;}
+
+[dir='rtl'] .form-control i{float:right;     padding-right: 9px;}
+[dir='rtl'] .contact-us input, .contact-us textarea{padding-left:10px; padding-right:30px;}
+[dir='rtl'] .contact-us2{text-align:right!important;}
+[dir='rtl'] .mainvert{display:block; text-align:center!important;}
+[dir='rtl'] .conts{text-align:center; display:block;}
+
+
+/*[dir='rtl'] .modal-body{text-align:right!important;}*/
+[dir='rtl'] .modal-header{text-align:center!important; display:block;}
+[dir='rtl'] .comany-image{text-align: center!important;}
+[dir='rtl'] #myModal3 .pop-up input, #myModal4 .pop-up input, #myModal5 .pop-up input{padding-left:10px; padding-right:30px;}
+[dir='rtl'] .fa-eye{float:left!important; padding-left:10px;}
+[dir='rtl'] .checkmark{right:0px; left:unset;}
+[dir='rtl'] #myModal4 .pop-up input[type='checkbox'], #myModal5 .pop-up input[type='checkbox']{right:0px; left:unset;}
+[dir='rtl'] .d-flex label{margin-right:20px!important;}
+[dir='rtl'] .pop-up label{display:block; text-align:right;     padding-right: 15px;}
+[dir='rtl'] .incorrect:before{right:0px; left:unset;}
+[dir='rtl'] .incorrect{padding-right:30px!important; text-align: right!important;}
+[dir='rtl'] .border-left{border-left:0px!important; border-right:1px solid#BABABA!important;     
+	padding-right:20px!important; padding-left:0px!important;}
+
+[dir='rtl'] .booking1{text-align: center!important;}
+[dir='rtl'] .login{padding-left: 30px!important;}
+[dir='rtl'] .booking2{text-align:left!important;}
+[dir='rtl'] .confirmed {text-align:right;}
+[dir='rtl'] #myModal .pop-up label{margin-right:135px!important;}
+[dir='rtl'] #myModal1 .pop-up label{margin-right:135px!important;}
+[dir='rtl'] #myModal9 .modal-header img{width:40%;}
+/*end of  rtl css*/

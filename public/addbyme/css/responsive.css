@@ -1,0 +1,339 @@
+/* 1199 device*/
+@media (max-width:1299px) {
+    .slick-prev {
+        left: -45px!important;
+        z-index: 99!important;
+    }
+    .slick-next {
+        right: -44px!important;
+        z-index: 999!important;}
+    .inputselct:before{left:5px;}
+    
+    
+    
+    }
+    
+    
+    
+    /* 1199 device*/
+    @media (max-width:1199px) {
+    
+    .logo img{width:100%;}
+    .textlogo h3{font-size:30px;}
+    .bgimages{height:450px;}
+    .topsection{top:0px;}
+    .boxtitle h4{font-size:20px;}
+    .topsection3{margin-top:0px;}
+    .titleget ul li { font-size: 21px;line-height: 37px;}
+    .input input{margin-bottom:20px;}
+    .formbox{margin-top:40px;}
+    .footertext h3{font-size:34px;}
+    .bgicon {padding: 7px 24px!important;}
+    .sectsatr{display:none;}
+    .bookbottom{top:30px;}
+    .button{padding: 10px 5px; font-size:11px;}
+    .ablitbotton a{font-size:20px;}
+    .topsection4{margin-top:0px;}
+    .rate h4{font-size:16px;}
+    .bookformday .custom-select{font-size:20px;}
+    .Another{width:100%;}
+    .bookform1 ::placeholder{color: #253858;font-size: 11px;}
+    .bookform2 input::placeholder{color: #253858; font-size: 11px;}
+    .bookform2 label span{font-size:9px}
+    .multipal ul li{font-size:15px;}
+    .multipal1 ul li{width:33%;}
+    .widthli1 {width: 12%!important;}
+    .multipal1 input{margin-bottom:10px;}
+    .contactbar ul li a{font-size:12px;}
+    .circle{text-align: center;  width: 100%;margin: auto;}
+    .Companies2 .Company h4{font-size:18px;}
+    .Company h4{font-size:18px;}
+    .boxliser{width:100%; margin:0px;}
+    [dir='rtl'] .sliderone {width:100%!important;margin: unset!important; margin-bottom:30px!important;}
+    
+    }
+    
+    
+    
+    /*end of  1199 device*/
+    
+    
+    
+    /* 992 device*/
+    @media (max-width:992px) {
+    .title h3{font-size:30px;}
+    .logo img{width:100%;}
+    .textlogo h3{    font-size: 27px;line-height: 29px;}
+    .contactbar ul li{margin-right:0px;}
+    .contactbar ul li a{font-size:7px;}
+    .boxform{width:100%;}
+    .bgimages{height: 463px;}
+    .bgimages2{background-size: unset; background-position: center;}
+    .topsection{top:0px;}
+    .boxtitle h4{font-size:19px;}
+    .listicon2 li img{width:25px;}
+    .listicon2 li{margin-right:0px;}
+    .time p{font-size:18px;}
+    .numbername h3{font-size:18px;}
+    .number h3{font-size:18px;}
+    .input-number{padding:0px;}
+    .input-number-decrement, .input-number-increment{width:18px;}
+    .titleget h4{font-size:16px;}
+    .titleget p{font-size:16px;}
+    .titleget ul li { font-size: 18px;line-height: 26px;}
+    .total h3{font-size:20px;}
+    .Country p{font-size:14px;    margin-bottom: 9px;}
+    .bg-text1 .Country p{font-size:14px;}
+    .topsection3{margin-top:0px;}
+    .Country ul li{margin-right:0px; font-size:12px;}
+    .bgicon {padding: 7px 18px!important;}
+    .footertext h3 span{font-size: unset; display: unset; font-weight:unset;}
+    .footertext h3{font-size:20px;}
+    .bookbottom {top: 25px;}
+    .passport h4{font-size:21px;}
+    .ablitbotton a{    padding: 10px 24px;    font-size: 21px;}
+    .sectsatr{display:none;}
+    .rate h4{font-size:18px;}
+    .bookform1 label{font-size:14px;}
+    .bookformday .custom-select{font-size:20px;}
+    .Editphoto{font-size:10px;}
+    .account .Company h4{font-size:18px;}
+    .Another{width:100%;}
+    .bookform1 ::placeholder{color: #253858;font-size: 14px;}
+    .bookform2 input::placeholder{color: #253858; font-size: 12px;}
+    .bookform2 label span{font-size:9px}
+    .multipal ul li{font-size:14px;}
+    .multipal1 ul li{width:33%;}
+    .widthli1 {width: 12%!important;}
+    .multipal1 input{margin-bottom:10px;}
+    
+    .circle{text-align: center;  width: 48%;margin: auto;}
+    .buttonloction a{font-size:11px;}
+    .go-btn {padding: 9px 9px;}
+    .Follow{display: block; text-align: center;}
+    .boxliser{width:100%; margin:0px;}
+    [dir='rtl'] .sliderone {width:100%!important;margin: unset!important; margin-bottom:30px!important;}
+    
+    }
+    
+    /*end of  992 device*/
+    
+    
+    
+    
+    
+    /* 767 device*/
+    @media (max-width:767px) {
+    [dir='rtl'] .footerbottom ul{text-align: center;}
+    [dir='rtl'] .rowmar{text-align: center;}
+    .blance3{text-align: center;}
+    .editprofile ul li a{font-size:14px; padding: 10px 10px;}
+    .contactbar ul li{margin-right:0px; margin-bottom:7px;/*new*/}
+    .contactbar ul li a{    padding: 7px 10px;     font-size: 11px;}
+    .title h3{font-size:30px;}
+    .boxtitle h4{font-size:18px;}
+    .Destinationpdd {padding: 10px 0px;}
+    .titleget h4{font-size:20px;}
+    .logo img{width:100%;}
+    .mar4{margin:0px;}
+    .textlogo h3{    font-size: 20px;line-height: 23px;}
+    .contactbar ul{text-align: center;}
+    .contactbar{margin-top:12px;}
+    .complan{display:none;}
+    .boxform{width:100%;    padding: 20px 10px;}
+    .searchbox input{margin-bottom:15px;}
+    .bgimages{height:unset; background-position:center;}
+    .topsection{top:0px;}
+    .colmdwidth {max-width: 100%!important; margin-bottom:20px;}
+    .borbox2{width:25%; margin: auto; position:relative;}
+    .pright{    padding-right: 15px!important;}
+    .bg-gradient{margin-top:20px;}
+    .pleft {padding-left:15px!important;}
+    .circle{text-align: center;}
+    .Company{text-align: center;}
+    .input-number{width:100%; background-color:transparent;}
+    .numbername{text-align: center;}
+    .number{text-align: center;}
+    .topsection3{margin-top:20px;}
+    .titleback h3{font-size:20px;}
+    .titleback h3 span{display: unset; font-weight:unset; font-size: unset;}
+    .paddrowbottom4{padding-bottom:0px;}
+    .tabs{margin-top:20px; margin-bottom:20px;}
+    .tab-content {margin-top: 40px;}
+    .topfooet{padding-top:0px;}
+    .titleback h4{font-size:20px;}
+    .bgicon {padding: 7px 20px!important;}
+    .footertext h3{font-size:15px;}
+    .footertext h3 span{display:unset; font-size:unset; font-weight:unset;}
+    .footertext{padding-top:7px;}
+    .footerlogo{padding-top:10px;}
+    .footerbottom{text-align: center;}
+    .TravelIraq{text-align: center;}
+    .footericon ul{text-align: center;}
+    .slick-next{display:none!important;}
+    .slick-prev{display:none!important;}
+    .sectsatr{display:block;}
+    
+    
+    /*booking css*/
+    .boxsmall{width:100%; position: unset;}
+    .topsection4{margin-top:0px;}
+    .sliderone:before{position: unset;}
+    .sliderone:after{position:unset;}
+    .bookbottom{top:0px;}
+    .passport h4{font-size:17px;}
+    .ablitbotton a{padding: 6px 17px;font-size: 18px;}
+    .tabing1 li a{font-size:20px;}
+    .textright2{    position: unset;display: inline-block;}
+    /*end of booking css*/
+    .nameform {
+        width: 80%;}
+    .circle{text-align: center;  width: 22%;margin: auto;}
+    .boxliser{width:100%; margin:0px;}
+    [dir='rtl'] .sliderone {width:100%!important;margin: unset!important; margin-bottom:30px!important;}
+    .rightnumber1{position:absolute;left:0px;}
+    .rightnumber2{position:absolute;right:0px;}
+    .update a{font-size:20px;}
+    [dir='rtl'] .contactbar ul{text-align: center;}
+    .uplaodphot2 .avatar-upload .avatar-edit{position:unset;}
+    .hrboredr{top:77px;}
+    .mainicontitle{margin-top:10px;}
+    .checkred{font-size:18px;}
+    .paddboredr3{margin-bottom:0px;}
+    .choiceChosen, .productChosen{width:100%;     border-radius: 50px;
+        margin-bottom: 10px;}
+        
+    
+    }
+    
+    
+    /*end of  767 device*/
+    
+    
+    
+    /* 599 device*/
+    @media (max-width:599px) {
+    .choiceChosen, .productChosen{width:100%;     border-radius: 50px;
+        margin-bottom: 10px;}
+    .succuseful small{font-size:20px;}
+    .succuseful h2{font-size:30px;}
+    .paddboredr3{margin-bottom:0px;}
+    .checkred{font-size:18px;}
+    .mainicontitle{margin-top:10px;}
+    .hrboredr{top:77px;}
+        .uploadboximages { padding: 27px 10px;}
+    .uplaodphot2 .avatar-upload .avatar-edit{position:unset;}
+    [dir='rtl'] .footerbottom ul{text-align: center;}
+    [dir='rtl'] .rowmar{text-align: center;}
+    .blance3{text-align: center;}
+    .editprofile ul li a{font-size:14px; padding: 10px 10px;}
+    .contactbar ul li{margin-right:0px; margin-bottom:7px;/*new*/}
+    .contactbar ul li a{    padding: 7px 10px;     font-size: 11px;}
+    .title h3{font-size:17px;}
+    .titlebox3{width:100%;}
+    .boxtitle h4{font-size:18px;}
+    .Destinationpdd {padding: 10px 0px;}
+    .titleget h4{font-size:20px;}
+    .logo img{width:100%;}
+    .mar4{margin:0px;}
+    .textlogo h3{    font-size: 20px;line-height: 23px;}
+    .contactbar ul{text-align: center;}
+    [dir='rtl'] .contactbar ul{text-align: center;}
+    .contactbar{margin-top:12px;}
+    .complan{display:none;}
+    .boxform{width:100%;    padding: 20px 10px;}
+    .searchbox input{margin-bottom:15px;}
+    .bgimages{height:unset; background-position:center;}
+    .topsection{top:0px;}
+    .colmdwidth {max-width: 100%!important; margin-bottom:20px;}
+    .borbox2{width:50%; margin: auto; position:relative;}
+    .rightnumber1{position:absolute;left:0px;}
+    .rightnumber2{position:absolute;right:0px;}
+    .pright{    padding-right: 15px!important;}
+    .bg-gradient{margin-top:20px;}
+    .pleft {padding-left:15px!important;}
+    .circle{text-align: center;  width: 33%;margin: auto;}
+    .Company{text-align: center;}
+    .input-number{width:100%; background-color:transparent;}
+    .numbername{text-align: center;}
+    .number{text-align: center;}
+    .topsection3{margin-top:20px;}
+    .titleback h3{font-size:20px;}
+    .titleback h3 span{display: unset; font-weight:unset; font-size: unset;}
+    .paddrowbottom4{padding-bottom:0px;}
+    .tabs{margin-top:20px; margin-bottom:20px;}
+    .tab-content {margin-top: 40px;}
+    .topfooet{padding-top:0px;}
+    .titleback h4{font-size:20px;}
+    .bgicon {padding: 7px 20px!important;}
+    .footertext h3{font-size:15px;}
+    .footertext h3 span{display:unset; font-size:unset; font-weight:unset;}
+    .footertext{padding-top:7px;}
+    .footerlogo{padding-top:10px;}
+    .footerbottom{text-align: center;}
+    .TravelIraq{text-align: center;}
+    .footericon ul{text-align: center;}
+    .slick-next{display:none!important;}
+    .slick-prev{display:none!important;}
+    .slick-dots{display:block!important;}
+    .rate h4{font-size:15px;}
+    
+    
+    /*booking css*/
+    .boxsmall{width:100%; position: unset;}
+    .topsection4{margin-top:0px;}
+    .sliderone:before{position: unset;}
+    .sliderone:after{position:unset;}
+    .bookbottom{top:0px;}
+    .passport h4{font-size:17px;}
+    .ablitbotton a{padding: 6px 17px;font-size: 18px;}
+    .tabing1 li a{font-size:20px;}
+    .textright2{    position: unset;display: inline-block;}
+    /*end of booking css*/
+    
+    .multipal ul li {font-size: 10px; width:31%;}
+    .multipal1 ul li{width:100%;}
+    .widthli1 {width: 100%!important;}
+    .nameform {width: 80%;}
+    .nameform p{font-size:16px;}
+    .boxliser{width:100%; margin:0px;}
+    [dir='rtl'] .sliderone {width:100%!important;margin: unset!important; margin-bottom:30px!important;}
+    .searchget{margin-top:7px;}
+    .searchbox1 ::placeholder{font-size:14px!important;}
+    #datepicker12{font-size:11px;}
+    #datepicker11{font-size:11px;}
+    .pop-up input[type='submit'] {width:100%;}
+    .bookform1 ::placeholder{color: #253858;font-size: 10px;}
+    .bookform2 input::placeholder{color: #253858; font-size: 10px;}
+    .update a{font-size:20px;}
+    .inputselct{margin-bottom:10px;}
+    .buttonloction a{text-align: center; font-size:15px; margin-bottom:10px;}
+    
+    }
+    
+    
+    /*end of  599 device*/
+    
+    
+    /*320 device*/
+    
+    @media (max-width:320px) {
+    
+    .searchbox1 ::placeholder{font-size:10px!important;}
+    #datepicker12{font-size:9px;}
+    #datepicker12{font-size:9px;}
+    .pop-up input[type='submit'] {width:100%;}
+    .contactbar ul li a {
+        padding: 6px 5px;
+        font-size: 7px;}
+    
+        .bage3 {
+        top: -11px;
+        left: -8px;
+        padding: 3px 6px;
+        border-radius: 50px;
+        font-size: 8px;}
+    
+    }
+    
+    /*end of  320 device*/
